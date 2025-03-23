@@ -1,3 +1,6 @@
+/* Google Fonts에서 Jua 폰트 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
 /* 기본적인 스타일 설정 */
 body {
     font-family: Arial, sans-serif;
@@ -55,4 +58,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* 글 제목에 폰트 적용 */
+main ul li a {
+    font-family: 'Jua', sans-serif;
 }
