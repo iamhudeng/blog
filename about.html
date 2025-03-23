@@ -2,6 +2,16 @@
 <html lang="ko">
 
 <head>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll("a").forEach(link => {
+            link.addEventListener("mouseover", function(event) {
+                event.preventDefault();
+            });
+        });
+    });
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>소개</title>
