@@ -56,7 +56,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-a {
-    pointer-events: none; /* 마우스 이벤트를 막아서 URL 미리보기 숨김 */
-}
