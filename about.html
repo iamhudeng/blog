@@ -2,23 +2,6 @@
 <html lang="ko">
 
 <head>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll("a").forEach(link => {
-            let originalHref = link.getAttribute("href"); // 원래 href 값 저장
-            
-            link.addEventListener("mouseenter", function() {
-                link.setAttribute("data-href", originalHref); // href 값을 data-href로 이동
-                link.removeAttribute("href"); // href 제거 (URL 미리보기 안 보이게 함)
-            });
-
-            link.addEventListener("mouseleave", function() {
-                link.setAttribute("href", link.getAttribute("data-href")); // href 복원
-                link.removeAttribute("data-href");
-            });
-        });
-    });
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>소개</title>
