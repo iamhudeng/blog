@@ -60,7 +60,18 @@ footer {
     width: 100%;
 }
 
+main ul li {
+    margin-bottom: 15px; /* 각 제목 항목 사이에 여백 추가 */
+}
+
 /* 글 제목에 폰트 적용 */
 main ul li a {
     font-family: 'Jua', sans-serif;
+    font-size: 20px; /* 폰트 크기 키우기 */
+    color: black; /* 글씨 색을 검은색으로 변경 */
+    text-decoration: none; /* 밑줄 제거 */
 }
+
+main ul li a:hover {
+    color: #00FF00; /* 호버 시 색상 변경 (파란색 등) */
+    text-decoration: underline; /* 호버 시 밑줄 표시 */
