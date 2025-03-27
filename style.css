@@ -60,7 +60,7 @@ nav ul li a img {
     width: 50px;  /* 크기 조절 */
     height: 50px; /* 가로세로 같게 */
     border-radius: 50%; /* 원형으로 만들기 */
-    object-fit: cover; /* 이미지 비율 유지 */
+    object-fit: contain; /* 이미지 비율 유지 */
 }
 
 main {
