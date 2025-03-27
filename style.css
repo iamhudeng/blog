@@ -57,8 +57,8 @@ nav ul li a.logo {
 }
 /* 로고를 동그랗게 만들기 */
 nav ul li a img {
-    width: 40px;  /* 크기 조절 */
-    height: 40px; /* 가로세로 같게 */
+    width: 50px;  /* 크기 조절 */
+    height: 50px; /* 가로세로 같게 */
     border-radius: 50%; /* 원형으로 만들기 */
     object-fit: cover; /* 이미지 비율 유지 */
 }
