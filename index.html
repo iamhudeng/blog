@@ -14,15 +14,7 @@
           <div id="titleishere"></div>
     </header>
 
-<script>
-    fetch("uptitle.html")  // uptitle.html 파일을 불러옴
-        .then(response => response.text())  // 텍스트로 변환
-        .then(data => {
-            document.getElementById("titleishere").innerHTML = data;  // #titleishere에 삽입
-        })
-        .catch(error => console.error("네비게이션 바 로딩 오류:", error));  // 오류 처리
-</script>
-
+<script src="nav.js"></script>
     <main>
         <h1>환영해요!</h1>
         <p>여기서는 제가 올린 다양한 글을 읽을 수 있습니다. (물론, 아직 다 안만듦)</p>
