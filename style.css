@@ -19,11 +19,17 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;  /* Flexbox 적용 */
+    align-items: center;  /* 세로 중앙 정렬 */
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
+}
+
+/* 로고를 가장 왼쪽으로 배치 */
+nav ul li:first-child {
+    margin-right: auto;
 }
 
 nav ul li a {
