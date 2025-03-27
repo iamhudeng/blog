@@ -26,6 +26,19 @@ nav ul li {
     margin-right: 20px;
 }
 
+/* 로고 스타일 */
+nav ul li a.logo {
+    background-color: transparent; /* 배경 없애기 */
+    padding: 0; /* 버튼처럼 보이지 않도록 패딩 제거 */
+}
+/* 로고를 동그랗게 만들기 */
+.round-logo {
+    width: 40px;  /* 크기 조절 */
+    height: 40px; /* 가로세로 같게 */
+    border-radius: 50%; /* 원형으로 만들기 */
+    object-fit: cover; /* 이미지 비율 유지 */
+}
+
 nav ul li a {
     display: inline-block;
     padding: 10px 20px;
