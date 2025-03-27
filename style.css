@@ -29,6 +29,7 @@ nav ul li {
 
 /* 로고를 가장 왼쪽으로 배치 */
 nav ul li:first-child {
+    margin-left: 20px;
     margin-right: auto;
 }
 
