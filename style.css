@@ -31,13 +31,16 @@ nav ul li {
 
 /* 로고를 가장 왼쪽으로 배치 */
 nav ul li:first-child {
-    position: absolute;
-    left: 20px;
     margin-right: auto;
 }
 
 nav ul li:nth-child(2) {
-    margin-left: 120px;
+    margin-left: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px; /* 버튼 사이 간격 */
 }
 
 nav ul li a {
