@@ -23,10 +23,11 @@ nav ul {
     align-items: center;  /* 세로 중앙 정렬 */
     justify-content: center;  /* 메뉴 항목을 중앙 정렬 */
     position: relative; /* 로고를 왼쪽에 고정하기 위해 추가 */
+    gap: 15px;
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin: 0;
 }
 
 /* 로고를 가장 왼쪽으로 배치 */
@@ -56,17 +57,12 @@ nav ul li a.logo {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    margin-left: 10px;  /* 로고와 간격 조절 */
-}
-
-.nav-buttons {
-    display: flex;
-    gap: 20px; /* 버튼 사이 간격 */
+    margin-left: 15px;  /* 로고와 간격 조절 */
 }
 
 nav ul li a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 15    px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
@@ -77,7 +73,6 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #0056b3;
-    text-decoration: none;
 }
 
 main {
