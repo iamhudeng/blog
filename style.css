@@ -21,6 +21,8 @@ nav ul {
     padding: 0;
     display: flex;  /* Flexbox 적용 */
     align-items: center;  /* 세로 중앙 정렬 */
+    justify-content: center;  /* 메뉴 항목을 중앙 정렬 */
+    position: relative; /* 로고를 왼쪽에 고정하기 위해 추가 */
 }
 
 nav ul li {
@@ -29,7 +31,8 @@ nav ul li {
 
 /* 로고를 가장 왼쪽으로 배치 */
 nav ul li:first-child {
-    margin-left: 20px;
+    position: absolute;
+    left: 20px;
     margin-right: auto;
 }
 
