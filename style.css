@@ -27,7 +27,8 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 /* 로고를 가장 왼쪽으로 배치 */
@@ -58,8 +59,6 @@ nav ul li a.logo {
     font-weight: bold;
     color: white;
     margin-left: 15px;  /* 로고와 간격 조절 */
-    display: flex;
-    align-items: center;
 }
 
 nav ul li a {
