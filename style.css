@@ -40,7 +40,6 @@ nav ul li:first-child {
 nav ul li a.logo {
     background-color: transparent; /* 배경 없애기 */
     padding: 0; /* 버튼처럼 보이지 않도록 패딩 제거 */
-    transition: none !important;
 }
 /* 로고를 동그랗게 만들기 */
 .round-logo {
@@ -74,6 +73,14 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #0056b3;
+}
+
+nav ul li a.logo img {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a.logo img:hover {
+    transform: scale(1.1); /* 10% 확대 */
 }
 
 main {
