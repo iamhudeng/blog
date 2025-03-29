@@ -155,6 +155,10 @@ nav ul li a:hover {
     width: auto;
 }
 
+#profile-modal h2 {
+    margin-bottom: 0;
+}
+
 main {
     padding: 20px;
     background-color: white;
