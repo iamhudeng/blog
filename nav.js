@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             sessionStorage.setItem("cachedTitle", data);
 
             // 모달 기능 추가
-            const profileBtn = document.getElementById("profile-btn");
+            const profileBtn = document.getElementById("#profile-btn img");
             const modal = document.getElementById("profile-modal");
             const closeModal = document.getElementById("close-modal");
 
