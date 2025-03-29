@@ -7,6 +7,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -130,6 +132,7 @@ main {
     margin: 20px auto;
     max-width: 900px;
     border-radius: 8px;
+    flex-grow: 1;
 }
 
 footer {
