@@ -20,9 +20,9 @@ nav ul {
     padding: 0; /* 기본적으로 <ul>은 왼쪽에 여백이 있는데, 이를 제거. */
     display: flex;  /* Flexbox 적용 */
     align-items: center;  /* 세로 중앙 정렬 */
-    justify-content: flex-start;  /* 메뉴 항목을 중앙 정렬 */
-    /*position: relative; /* 로고를 왼쪽에 고정하기 위해 추가 */
+    justify-content: center;  /* 메뉴 항목을 중앙 정렬 */
     gap: 30px;
+    position: relative;
 }
 
 nav ul li {
@@ -32,7 +32,8 @@ nav ul li {
 
 /* 로고를 가장 왼쪽으로 배치 */
 nav ul li:first-child {
-    margin-right: auto;
+    position: absolute;
+    left: 20px;
 }
 
 nav ul li a.logo img {
