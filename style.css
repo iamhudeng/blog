@@ -138,7 +138,8 @@ nav ul li a:hover {
 /* 소셜 링크 */
 .social-links a {
     display: inline-block;
-    margin: 5px;
+    font-size: 30px;
+    margin: 10px;
     text-decoration: none;
     color: blue;
     font-weight: bold;
