@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #333;
-    padding: 30px;
+    padding: 15px;
     color: white;
     text-align: center;
 }
@@ -44,6 +44,7 @@ nav ul li a.logo img {
     border: 5px solid #61715F;
     padding: 2px;             /* 테두리가 이미지에 붙지 않도록 여백 추가 */
     background-color: #EAEDCF;
+    transition: transform 0.3s ease-in-out;
 }
 
 .username {
@@ -51,6 +52,10 @@ nav ul li a.logo img {
     font-weight: bold;
     color: white;
     margin-left: 25px;  /* 로고와 간격 조절 */
+}
+
+nav ul li a.logo img:hover {
+    transform: scale(1.1); /* 10% 확대 */
 }
 
 nav ul li a:not(.logo) {
@@ -62,19 +67,12 @@ nav ul li a:not(.logo) {
     text-decoration: none;
     font-size: 25px;
     border-radius: 27px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
 }
 
 nav ul li a:not(.logo):hover {
     background-color: #0056b3;
-}
-
-nav ul li a.logo img {
-    transition: transform 0.3s ease-in-out;
-}
-
-nav ul li a.logo img:hover {
-    transform: scale(1.1); /* 10% 확대 */
+    transform: scale(1.1);
 }
 
 main {
