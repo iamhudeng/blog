@@ -39,7 +39,7 @@ nav ul li:first-child {
 /* 로고 스타일 */
 nav ul li a.logo {
    /* background-color: transparent; /* 배경 없애기 */
-    padding: 0; /* 버튼처럼 보이지 않도록 패딩 제거 */
+   /* padding: 0; /* 버튼처럼 보이지 않도록 패딩 제거 */
 }
 /* 로고를 동그랗게 만들기 */
 .round-logo {
@@ -60,7 +60,7 @@ nav ul li a.logo {
     margin-left: 15px;  /* 로고와 간격 조절 */
 }
 
-nav ul li a {
+nav ul li a:not(.logo) {
     display: inline-block;
     padding: 10px 15px;
     background-color: #007BFF;
@@ -71,7 +71,7 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:not(.logo):hover {
     background-color: #0056b3;
 }
 
