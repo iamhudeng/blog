@@ -53,13 +53,14 @@ nav ul li a.logo img {
 }
 
 nav ul li a:not(.logo) {
+    font-family: 'Jua', sans-serif;
     display: inline-block;
     padding: 15px 20px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
     font-size: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: background-color 0.3s;
 }
 
