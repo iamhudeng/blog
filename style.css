@@ -40,16 +40,16 @@ nav ul li a.logo img {
     height: 90px; /* 가로세로 같게 */
     border-radius: 30%;
     object-fit: contain; /* 이미지 비율 유지 */
-    border: 4px solid #eaedcf;  /* 하얀색 테두리 추가 */
+    border: 4px solid white;  /* 하얀색 테두리 추가 */
     padding: 2px;             /* 테두리가 이미지에 붙지 않도록 여백 추가 */
-    background-color: white;  /* 배경색 추가 (선택 사항) */
+    background-color: #EAEDCF;  /* 배경색 추가 (선택 사항) */
 }
 
 .username {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    margin-left: 30px;  /* 로고와 간격 조절 */
+    margin-left: 25px;  /* 로고와 간격 조절 */
 }
 
 nav ul li a:not(.logo) {
@@ -58,8 +58,8 @@ nav ul li a:not(.logo) {
     background-color: #007BFF;
     color: white;
     text-decoration: none;
-    font-size: 35px;
-    border-radius: 5px;
+    font-size: 25px;
+    border-radius: 10px;
     transition: background-color 0.3s;
 }
 
