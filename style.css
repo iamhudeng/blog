@@ -142,14 +142,17 @@ nav ul li a:hover {
 
 /* 소셜 링크 */
 .social-links a {
-    background: rgb(209, 217, 224);
-    border-radius: 27px;
     display: inline-block;
     font-size: 30px;
     margin: 10px;
     text-decoration: none;
     color: blue;
     font-weight: bold;
+}
+
+.social-links-ctn {
+    background: rgb(209, 217, 224);
+    border-radius: 27px;
 }
 
 .chess-icon {
