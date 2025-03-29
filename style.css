@@ -159,6 +159,10 @@ nav ul li a:hover {
     margin-bottom: 0;
 }
 
+.pfp-hashtag {
+    color: #0b57d0;
+}
+
 main {
     padding: 20px;
     background-color: white;
