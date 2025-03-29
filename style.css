@@ -157,10 +157,9 @@ nav ul li a:hover {
 }
 
 main {
-    margin-top: 60px;
     padding: 20px;
     background-color: white;
-    margin: 20px auto;
+    margin: 150px auto;
     width: 900px;
     border-radius: 8px;
     flex-grow: 1;
