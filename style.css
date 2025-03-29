@@ -36,7 +36,7 @@ nav ul li:first-child {
     left: 20px;
 }
 
-nav ul li a.logo img {
+nav ul li button img {
     width: 90px;
     height: 90px;
     border-radius: 30%;
@@ -54,11 +54,11 @@ nav ul li a.logo img {
     margin-left: 25px;  /* 로고와 간격 조절 */
 }
 
-nav ul li a.logo img:hover {
+nav ul li button img:hover {
     transform: scale(1.1); /* 10% 확대 */
 }
 
-nav ul li a:not(.logo) {
+nav ul li a {
     font-family: Times New Roman, serif;
     color: black;
     display: inline-block;
@@ -70,7 +70,7 @@ nav ul li a:not(.logo) {
     transition: background-color 0.3s, transform 0.3s ease-in-out;
 }
 
-nav ul li a:not(.logo):hover {
+nav ul li a:hover {
     background-color: white;
     transform: scale(1.1);
 }
