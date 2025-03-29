@@ -1,5 +1,6 @@
 /* Google Fonts에서 Jua 폰트 불러오기 */
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
     font-family: Arial, sans-serif;
