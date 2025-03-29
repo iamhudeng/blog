@@ -162,6 +162,7 @@ nav ul li a:hover {
 .pfp-hashtag {
     color: #0b57d0;
     word-spacing: 10px;
+    font-style: italic;
 }
 
 main {
