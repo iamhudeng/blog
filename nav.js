@@ -49,3 +49,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 100); // DOM 업데이트 기다리기
     })
     .catch(error => console.error("타이틀 로딩 오류:", error));
+});
