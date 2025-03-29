@@ -60,7 +60,7 @@ nav ul li a:not(.logo) {
     color: white;
     text-decoration: none;
     font-size: 25px;
-    border-radius: 27.5px;
+    border-radius: 50%;
     transition: background-color 0.3s;
 }
 
