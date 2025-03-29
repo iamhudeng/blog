@@ -34,14 +34,16 @@
     </div>
 </div>
 
-window.addEventListener('load', adjustMainMargin);
-window.addEventListener('resize', adjustMainMargin);
+  <script>
+        window.addEventListener('load', adjustMainMargin);
+        window.addEventListener('resize', adjustMainMargin);
 
-function adjustMainMargin() {
-    const header = document.querySelector('header');
-    const main = document.querySelector('main');
+        function adjustMainMargin() {
+            const header = document.querySelector('header');
+            const main = document.querySelector('main');
 
-    // header의 높이를 계산하여 main의 margin-top에 반영
-    const headerHeight = header.offsetHeight;
-    main.style.marginTop = `${headerHeight}px`;
-}
+            // header의 높이를 계산하여 main의 margin-top에 반영
+            const headerHeight = header.offsetHeight;
+            main.style.marginTop = `${headerHeight}px`;
+        }
+    </script>
