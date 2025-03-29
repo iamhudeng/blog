@@ -1,9 +1,7 @@
 <nav>
     <ul>
         <li> 
-            <a href="#" class="logo" id="profileButton"> 
-                <img src="images/유루미.gif"> 
-            </a>
+            <span class="logo"> <img src="images/유루미.gif"> </span>
             <span class="username">이현성의 블로그</span> 
         </li>
         <li> <a href="index.html">Home</a> </li>
@@ -11,42 +9,3 @@
         <li> <a href="about.html">About me</a> </li>
     </ul>
 </nav>
-
-<div id="profileModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <img src="프로필.png" class="profile-img">
-        <h2>이현성</h2>
-        <p>충남과학고등학교 학생</p>
-        <div class="social-icons">
-            <a href="#"><img src="images/facebook.png"></a>
-            <a href="#"><img src="images/instagram.png"></a>
-            <a href="#"><img src="images/github.png"></a>
-            <a href="#"><img src="images/naver.png"></a>
-        </div>
-        <button class="btn">Message</button>
-        <button class="btn">Be Friends</button>
-    </div>
-</div>
-
-<script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const profileButton = document.getElementById("profileButton");
-            const profileModal = document.getElementById("profileModal");
-            const closeModal = document.querySelector(".close");
-
-            profileButton.addEventListener("click", function () {
-                profileModal.style.display = "flex";
-            });
-
-            closeModal.addEventListener("click", function () {
-                profileModal.style.display = "none";
-            });
-
-            window.addEventListener("click", function (event) {
-                if (event.target === profileModal) {
-                    profileModal.style.display = "none";
-                }
-            });
-        });
-    </script>
