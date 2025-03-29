@@ -156,13 +156,13 @@ nav ul li a:hover {
 }
 
 #profile-modal h2 {
-    margin-bottom: 0;
+    margin: 10px 0;
 }
 
 .pfp-hashtag {
     color: #0b57d0;
     word-spacing: 10px;
-    margin-top: 0;
+    margin-top: 5;
 }
 
 main {
