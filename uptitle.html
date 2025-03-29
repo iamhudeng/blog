@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <li> 
-            <button> <img src="images/유루미.gif"> </button>
+            <button id="profile-btn"> <img src="images/유루미.gif"> </button>
             <span class="username">이현성의 블로그</span> 
         </li>
         <li> <a href="index.html">Home</a> </li>
@@ -9,3 +9,17 @@
         <li> <a href="about.html">About me</a> </li>
     </ul>
 </nav>
+
+<!-- 프로필 모달 -->
+<div id="profile-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-modal">&times;</span>
+        <img src="images/profile.png" alt="Profile Picture" class="profile-pic">
+        <h2>이현성</h2>
+        <p>웹 개발자 & 기술 블로거</p>
+        <div class="social-links">
+            <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+            <a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a>
+        </div>
+    </div>
+</div>
