@@ -136,7 +136,7 @@ main {
     padding: 20px;
     background-color: white;
     margin: 20px auto;
-    max-width: 900px;
+    width: 900px;
     border-radius: 8px;
     flex-grow: 1;
 }
