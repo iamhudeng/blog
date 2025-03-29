@@ -145,6 +145,11 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+.chess-icon {
+    height: 30px;
+    width: auto;
+}
+
 main {
     padding: 20px;
     background-color: white;
