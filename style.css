@@ -21,7 +21,7 @@ nav ul {
     display: flex;  /* Flexbox 적용 */
     align-items: center;  /* 세로 중앙 정렬 */
     justify-content: flex-start;  /* 메뉴 항목을 중앙 정렬 */
-    position: relative; /* 로고를 왼쪽에 고정하기 위해 추가 */
+    /*position: relative; /* 로고를 왼쪽에 고정하기 위해 추가 */
     gap: 30px;
 }
 
