@@ -188,6 +188,11 @@ nav ul li a:hover {
     margin-top: 0;
 }
 
+.pfp-hashtag a {
+    color: inherit; /* 부모 요소(.pfp-hashtag)의 색상을 상속 */
+    text-decoration: none; /* 기본 밑줄 제거 */
+}
+
 main {
     padding: 20px;
     background-color: white;
