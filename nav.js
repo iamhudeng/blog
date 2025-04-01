@@ -17,18 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
             const closeModal = document.getElementById("close-modal");
 
             profileImg.addEventListener("click", () => {
-                modal.style.display = "flex";
-            });
+    modal.classList.add("show");
+});
 
-            closeModal.addEventListener("click", () => {
-                modal.style.display = "none";
-            });
+closeModal.addEventListener("click", () => {
+    modal.classList.remove("show");
+});
 
-            window.addEventListener("click", (event) => {
-                if (event.target === modal) {
-                    modal.style.display = "none";
-                }
-            });
+window.addEventListener("click", (event) => {
+    if (event.target === modal) {
+        modal.classList.remove("show");
+    }
+});
+
         })
         .catch(error => console.error("타이틀 로딩 오류:", error));
 });
