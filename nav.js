@@ -33,3 +33,19 @@ window.addEventListener("click", (event) => {
         })
         .catch(error => console.error("타이틀 로딩 오류:", error));
 });
+/* HERE IS about*/
+document.addEventListener("DOMContentLoaded", function () {
+    const timelineItems = document.querySelectorAll(".timeline-item");
+
+    function revealTimeline() {
+        timelineItems.forEach(item => {
+            const rect = item.getBoundingClientRect();
+            if (rect.top < window.innerHeight * 0.85) {
+                item.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", revealTimeline);
+    revealTimeline(); // 페이지 로드시 실행
+});
