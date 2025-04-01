@@ -1,3 +1,18 @@
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 150px auto;
+    width: 900px;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+main img {
+    display: block;       /* 인라인 요소인 img를 블록 요소로 변경 */
+    margin: 20px auto;    /* 상하 여백 20px, 좌우 자동 정렬 */
+    width: 400px;         /* 너비 고정 */
+}
+
 /* 타임라인 컨테이너 스타일 */
 .timeline {
     position: relative;
