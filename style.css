@@ -106,7 +106,9 @@ nav ul li a:hover {
 
 /* 모달 기본 스타일 */
 .modal {
-    display: none;
+    display: flex; /* 기본적으로 숨겨져 있지만 자리 차지는 유지 */
+    opacity: 0; /* 처음엔 투명하게 설정 */
+    visibility: hidden; /* 화면에서 아예 사라지도록 설정 */
     position: fixed;
     top: 0;
     left: 0;
@@ -115,6 +117,13 @@ nav ul li a:hover {
     background: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* 모달이 활성화될 때 */
+.modal[style*="display: flex"] {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* 모달 컨텐츠 */
