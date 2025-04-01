@@ -237,6 +237,7 @@ main ul li a {
 main ul li a:hover {
     color: #00FF00; /* 호버 시 색상 변경 (파란색 등) */
     text-decoration: underline; /* 호버 시 밑줄 표시 */
+}
 
 /* 타임라인 컨테이너 스타일 */
 .timeline {
