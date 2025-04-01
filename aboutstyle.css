@@ -278,6 +278,7 @@ main ul li a:hover {
 /* 오른쪽 타임라인 아이템 */
 .timeline-content.right {
     left: 50%;
+    transform: translateX(100%);
     text-align: left;
 }
 
