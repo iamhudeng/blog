@@ -275,15 +275,21 @@ main ul li a:hover {
 
 /* 왼쪽 타임라인 아이템 */
 .timeline-content.left {
-    width:50%;
+    width: 42%;
     left: 0;
-    text-align: right;
 }
 
+.timeline-content.left h2 {
+    text-align: center;
+}
+.timeline-content.right h2 {
+    text-align: center;
+}
+    
 /* 오른쪽 타임라인 아이템 */
 .timeline-content.right {
     width:50%;
-    right: 0;
+    left: 53%;
     text-align: left;
 }
 
