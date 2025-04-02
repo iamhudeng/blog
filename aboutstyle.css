@@ -69,7 +69,7 @@ nav ul li button img {
     border: 5px solid #61715F;
     padding: 2px;             /* 테두리가 이미지에 붙지 않도록 여백 추가 */
     background-color: #EAEDCF;
-    transit    ion: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .username {
