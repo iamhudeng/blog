@@ -265,7 +265,7 @@ main ul li a:hover {
 /* 타임라인 아이템 */
 .timeline-item {
     position: relative;
-    width: 50%;
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     opacity: 0;
@@ -281,7 +281,6 @@ main ul li a:hover {
 
 /* 오른쪽 타임라인 아이템 */
 .timeline-content.right {
-    position: absolute;
     left: 100%;
     text-align: left;
 }
