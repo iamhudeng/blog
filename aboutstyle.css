@@ -280,10 +280,10 @@ main ul li a:hover {
 }
 
 .timeline-content.left h2 {
-    text-align: center;
+    text-align: right;
 }
 .timeline-content.right h2 {
-    text-align: center;
+    text-align: left;
 }
     
 /* 오른쪽 타임라인 아이템 */
