@@ -113,14 +113,12 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0.9);
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
 .modal.show {
     opacity: 1;
     visibility: visible;
-    transform: scale(1);
 }
 
 /* 모달 컨텐츠 */
@@ -131,6 +129,12 @@ nav ul li a:hover {
     text-align: center;
     width: 300px;
     position: relative;
+    transform: scale(0.9);
+    transform: transform 0.3s ease-in-out;
+}
+
+.modal.show .modal-content {
+    transform: scale(1); /* 원래 크기로 확대 */
 }
 
 /* 닫기 버튼 기본 스타일 */
