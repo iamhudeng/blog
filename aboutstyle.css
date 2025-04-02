@@ -69,7 +69,7 @@ nav ul li button img {
     border: 5px solid #61715F;
     padding: 2px;             /* 테두리가 이미지에 붙지 않도록 여백 추가 */
     background-color: #EAEDCF;
-    transition: transform 0.3s ease-in-out;
+    transit    ion: transform 0.3s ease-in-out;
 }
 
 .username {
@@ -113,13 +113,14 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-/* 모달이 활성화될 때 */
 .modal.show {
     opacity: 1;
     visibility: visible;
+    transform: scale(1);
 }
 
 /* 모달 컨텐츠 */
