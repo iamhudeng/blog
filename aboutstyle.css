@@ -349,4 +349,9 @@ main ul li a:hover {
 
 .timeline-item h2 {
     font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.timeline-item p {
+    font-size: 20px;
 }
